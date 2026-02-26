@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-brand-green: #76B800;
+  --color-brand-orange: #FF7924;
+  --color-brand-red: #811B18;
+  --color-brand-black: #000000;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-brand-black);
+  background-color: #f5f5f4; /* stone-100 */
+}
