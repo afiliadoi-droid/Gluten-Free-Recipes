@@ -10,17 +10,16 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigate }) => {
     const [isOpen, setIsOpen] = useState(false);
 
     const navItems = [
-        { id: 'bread', label: 'Breads', slug: '#breads' },
-        { id: 'cake', label: 'Cakes', slug: '#cakes' },
-        { id: 'frosting', label: 'Frostings', slug: '#frostings' },
-        { id: 'dessert', label: 'Desserts', slug: '#desserts' },
-        { id: 'essential', label: 'Essential Guide', slug: '#essential' },
+        { id: 'bread', label: 'Breads' },
+        { id: 'cake', label: 'Cakes' },
+        { id: 'frosting', label: 'Frostings' },
+        { id: 'dessert', label: 'Desserts' },
+        { id: 'essential', label: 'Essential Guide' },
     ] as const;
 
     const handleNavigate = (id: typeof navItems[number]['id']) => {
-        onNavigate(id);
+        onNavigate(id); // App.tsx handleTabChange updates the hash
         setIsOpen(false);
-        window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
     return (
@@ -36,7 +35,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigate }) => {
                     <div className="bg-[#76B800] p-1.5 rounded-lg shadow-sm group-hover:scale-110 transition-transform">
                         <Utensils className="w-5 h-5 text-white" />
                     </div>
-                    <span className="font-bold text-stone-900 tracking-tight italic">GF Bakes</span>
+                    <span className="font-bold text-stone-900 tracking-tight italic">Healthy Recipe App</span>
                 </div>
 
                 {/* Desktop Menu */}
@@ -55,7 +54,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigate }) => {
                 {/* Mobile Menu Trigger */}
                 <button
                     onClick={() => setIsOpen(!isOpen)}
-                    className="md:hidden w-10 h-10 bg-[#A855F7] rounded-full flex items-center justify-center text-white shadow-lg cursor-pointer hover:bg-purple-600 active:scale-95 transition-all z-[110]"
+                    className="md:hidden w-10 h-10 bg-[#76B800] rounded-full flex items-center justify-center text-white shadow-lg cursor-pointer hover:bg-[#5e9200] active:scale-95 transition-all z-[110]"
                     aria-label="Toggle Menu"
                 >
                     <AnimatePresence mode="wait">
