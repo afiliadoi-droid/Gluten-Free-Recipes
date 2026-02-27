@@ -3496,9 +3496,159 @@ export const recipes: Recipe[] = [
   },
   {
     id: 'essential-1',
-    title: 'Loading Essential Guide...',
+    title: 'Essential Guide: Introduction',
     category: 'essential',
-    ingredients: ['Guides coming soon!'],
-    instructions: ['Master the art of gluten-free baking with our upcoming guides.']
+    ingredients: [
+      'Gluten Intolerance',
+      'Lactose Intolerance',
+      'Diabetes Management',
+      'Goal: Healthy & Enjoyable Life'
+    ],
+    instructions: [
+      'Living with gluten intolerance, lactose intolerance or diabetes does not mean giving up delicious food.',
+      'It means learning a new and better way to eat.',
+      'This guide was created to help you understand your condition, make smarter food choices, read labels confidently and live a full, healthy and enjoyable life.',
+      'You do not have to feel limited. You just need the right information.'
+    ]
+  },
+  {
+    id: 'essential-2',
+    title: 'Chapter 1: Understanding Gluten Intolerance',
+    category: 'essential',
+    ingredients: [
+      'What is gluten? (Protein in wheat, barley, rye)',
+      'Celiac Disease (Autoimmune)',
+      'Non-Celiac Gluten Sensitivity',
+      'Symptoms: Bloating, Fatigue, Brain Fog, etc.'
+    ],
+    instructions: [
+      'Gluten found in wheat, barley and rye triggers reactions in sensitive individuals.',
+      'Watch for hidden sources: Soy sauce, non-certified oats, and processed thickeners.',
+      'Safe alternatives: Rice, Almond, Coconut, Tapioca, Potato, and Quinoa.',
+      'Tips: Read labels, avoid cross-contamination, use separate utensils.',
+      'Focus on whole foods: Fruits, vegetables, meats, fish, eggs, and legumes.'
+    ]
+  },
+  {
+    id: 'essential-3',
+    title: 'Chapter 2: Understanding Lactose Intolerance',
+    category: 'essential',
+    ingredients: [
+      'What is lactose? (Milk sugar)',
+      'Lactase deficiency',
+      'Symptoms: Bloating, Gas, Cramps (30m - 2h)',
+      'Safe substitutes: Almond, Coconut, Oat, Rice milk'
+    ],
+    instructions: [
+      'Lactose intolerance is a digestive issue, not an immune allergy.',
+      'Identify hidden sources: Bread, cereals, instant potatoes, processed meats.',
+      'Use coconut oil as a butter substitute in cooking.',
+      'Keep a food diary to identify specific triggers.',
+      'Check labels for whey, casein, or milk solids.'
+    ]
+  },
+  {
+    id: 'essential-4',
+    title: 'Chapter 3: Understanding Diabetes',
+    category: 'essential',
+    ingredients: [
+      'Glucose (main source of energy)',
+      'Insulin role',
+      'Types: 1, 2, Prediabetes, Gestational',
+      'Glycemic Index (GI) awareness'
+    ],
+    instructions: [
+      'Type 1 is autoimmune; Type 2 is influenced by diet and lifestyle.',
+      'Limit: White grains, sugary drinks, pastries, and trans fats.',
+      'Favor: Non-starchy vegetables, lean proteins, healthy fats, and low GI fruits.',
+      'Eat regular meals at consistent times to keep blood sugar stable.',
+      'Exercise regularly (30 mins daily) to improve insulin sensitivity.'
+    ]
+  },
+  {
+    id: 'essential-5',
+    title: 'Chapter 4: Reading Food Labels',
+    category: 'essential',
+    ingredients: [
+      '1. Serving size Check',
+      '2. Total Carbohydrates',
+      '3. Added Sugars (Less is better)',
+      '4. Ingredients list (Weight order)',
+      '5. Allergen warnings'
+    ],
+    instructions: [
+      'If sugar is in the first three ingredients, the product is high in sugar.',
+      'Watch for gluten words: Malt, Spelt, Durum, Semolina, Hydrolyzed wheat protein.',
+      'Watch for dairy words: Ghee, Casein, Whey, Lactalbumin, Curds.',
+      'Watch for sugar words: High fructose corn syrup, Dextrose, Fruit juice concentrate.'
+    ]
+  },
+  {
+    id: 'essential-6',
+    title: 'Chapter 5: Meal Planning Tips',
+    category: 'essential',
+    ingredients: [
+      'Half plate: Non-starchy vegetables',
+      'One quarter: Lean protein',
+      'One quarter: Complex gluten-free carbs',
+      'Healthy Fats: Avocado, olive oil, nuts'
+    ],
+    instructions: [
+      'Shop the perimeter of the grocery store for fresh produce and meats.',
+      'Stock staples: Rice/almond flour, canned chickpeas, quinoa, nut butters.',
+      'Example Day: Oatmeal (Breakfast), Large Salad (Lunch), Salmon & Quinoa (Dinner).',
+      'Dessert Idea: Chia seed pudding with coconut milk.'
+    ]
+  },
+  {
+    id: 'essential-7',
+    title: 'Chapter 6: Eating Out with Confidence',
+    category: 'essential',
+    ingredients: [
+      'Call ahead / check menus online',
+      'Inform servers about restrictions',
+      'Sauces/dressings on the side',
+      'Avoid shared fryers'
+    ],
+    instructions: [
+      'Choose grilled, baked, or steamed options over fried.',
+      'Pack safe snacks (nuts, fruit) for long journeys.',
+      'Research restaurants at your destination in advance.',
+      'Consider booking accommodations with a kitchen for travel.'
+    ]
+  },
+  {
+    id: 'essential-8',
+    title: 'Chapter 7: Emotional Wellbeing',
+    category: 'essential',
+    ingredients: [
+      'Normalize feelings of frutration/loss',
+      'Focus on what you CAN eat',
+      'Community connection',
+      'Celebrate progress'
+    ],
+    instructions: [
+      'Adjusting takes time; mistakes will happen.',
+      'Visit your doctor regularly for HbA1c and intestinal healing checks.',
+      'Work with a registered dietitian for personalized meal planning.',
+      'Exercise Lower blood sugar and improves energy/mood.'
+    ]
+  },
+  {
+    id: 'essential-9',
+    title: 'Final Message: A Lifelong Journey',
+    category: 'essential',
+    ingredients: [
+      'Knowledge & Tools',
+      'Positive Mindset',
+      'Soul-satisfying food',
+      'Healthy Journey'
+    ],
+    instructions: [
+      'Living with these conditions is a journey, not a temporary challenge.',
+      'Every recipe in this book is gluten-free, dairy-free, and sugar-optional.',
+      'You deserve food that nourishes your body AND satisfies your soul.',
+      'Happy and healthy cooking!'
+    ]
   }
 ];
