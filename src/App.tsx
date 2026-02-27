@@ -40,7 +40,7 @@ export default function App() {
       <Navbar onNavigate={setActiveTab} />
 
       {/* Header */}
-      <header className="bg-white border-b border-stone-200 sticky top-0 z-50">
+      <header className="bg-white border-b border-stone-200 z-50">
         <div className="max-w-5xl mx-auto px-4 py-6">
           <h1 className="text-2xl md:text-3xl font-bold text-center mb-6 text-stone-900 tracking-tight">
             Healthy Bread Recipe App
