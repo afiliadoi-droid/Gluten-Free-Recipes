@@ -10,11 +10,12 @@ import { Pagination } from './components/Pagination';
 import { recipes } from './data/recipes';
 import { motion, AnimatePresence } from 'motion/react';
 import { DownloadButton } from './components/DownloadButton';
+import { Navbar } from './components/Navbar';
 
 const ITEMS_PER_PAGE = 10;
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState<'bread' | 'cake' | 'frosting'>('bread');
+  const [activeTab, setActiveTab] = useState<'bread' | 'cake' | 'frosting' | 'dessert' | 'essential'>('bread');
   const [currentPage, setCurrentPage] = useState(1);
 
   const filteredRecipes = recipes.filter(recipe => recipe.category === activeTab);
@@ -28,10 +29,16 @@ export default function App() {
     setCurrentPage(1);
   }, [activeTab]);
 
-  const brandColor = activeTab === 'bread' ? '#76B800' : activeTab === 'cake' ? '#FF7924' : '#811B18';
+  const brandColor =
+    activeTab === 'bread' ? '#76B800' :
+      activeTab === 'cake' ? '#FF7924' :
+        activeTab === 'frosting' ? '#811B18' :
+          activeTab === 'dessert' ? '#D81B60' : '#006064';
 
   return (
     <div className="min-h-screen bg-[#f5f5f4] pb-20">
+      <Navbar onNavigate={setActiveTab} />
+
       {/* Header */}
       <header className="bg-white border-b border-stone-200 sticky top-0 z-50">
         <div className="max-w-5xl mx-auto px-4 py-6">

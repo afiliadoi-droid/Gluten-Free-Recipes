@@ -3071,5 +3071,19 @@ export const recipes: Recipe[] = [
       'Spread on cooled cake.',
       'Store frosted cake in the refrigerator.'
     ]
+  },
+  {
+    id: 'dessert-1',
+    title: 'Loading Desserts...',
+    category: 'dessert',
+    ingredients: ['Recipes coming soon!'],
+    instructions: ['Stay tuned for delicious gluten-free desserts.']
+  },
+  {
+    id: 'essential-1',
+    title: 'Loading Essential Guide...',
+    category: 'essential',
+    ingredients: ['Guides coming soon!'],
+    instructions: ['Master the art of gluten-free baking with our upcoming guides.']
   }
 ];
