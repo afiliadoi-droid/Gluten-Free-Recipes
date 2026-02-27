@@ -8,18 +8,22 @@ interface RecipeCardProps {
 }
 
 export const RecipeCard: React.FC<RecipeCardProps> = ({ recipe }) => {
-  const accentColor = 
+  const accentColor =
     recipe.category === 'bread' ? 'text-[var(--color-brand-green)]' :
-    recipe.category === 'cake' ? 'text-[var(--color-brand-orange)]' :
-    'text-[var(--color-brand-red)]';
+      recipe.category === 'cake' ? 'text-[var(--color-brand-orange)]' :
+        recipe.category === 'frosting' ? 'text-[var(--color-brand-red)]' :
+          recipe.category === 'dessert' ? 'text-[#D81B60]' :
+            'text-[#006064]';
 
-  const bgAccent = 
+  const bgAccent =
     recipe.category === 'bread' ? 'bg-[#76B800]/10' :
-    recipe.category === 'cake' ? 'bg-[#FF7924]/10' :
-    'bg-[#811B18]/10';
+      recipe.category === 'cake' ? 'bg-[#FF7924]/10' :
+        recipe.category === 'frosting' ? 'bg-[#811B18]/10' :
+          recipe.category === 'dessert' ? 'bg-[#D81B60]/10' :
+            'bg-[#006064]/10';
 
   return (
-    <motion.div 
+    <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       className="bg-white rounded-2xl shadow-sm border border-stone-100 overflow-hidden hover:shadow-md transition-shadow duration-300"

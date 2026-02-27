@@ -3074,10 +3074,425 @@ export const recipes: Recipe[] = [
   },
   {
     id: 'dessert-1',
-    title: 'Loading Desserts...',
+    title: 'Chocolate Energy Balls',
     category: 'dessert',
-    ingredients: ['Recipes coming soon!'],
-    instructions: ['Stay tuned for delicious gluten-free desserts.']
+    ingredients: [
+      '1 cup pitted dates',
+      '1/2 cup rolled oats (gluten-free)',
+      '3 tablespoons unsweetened cocoa powder',
+      '2 tablespoons peanut butter (no added sugar)',
+      '1 teaspoon vanilla extract',
+      'Pinch of salt'
+    ],
+    instructions: [
+      'Blend all ingredients in a blender or food processor until sticky dough forms.',
+      'Roll into small balls with your hands.',
+      'Refrigerate 30 minutes before serving.',
+      'Store in the fridge for up to 1 week.'
+    ],
+    tips: ['No sugar? Dates are the natural sweetener here.']
+  },
+  {
+    id: 'dessert-2',
+    title: 'Banana Ice Cream',
+    category: 'dessert',
+    ingredients: [
+      '4 ripe bananas (sliced and frozen)',
+      '1 teaspoon vanilla extract',
+      'Pinch of cinnamon (optional)'
+    ],
+    instructions: [
+      'Freeze banana slices for at least 4 hours or overnight.',
+      'Blend frozen bananas in a blender until smooth and creamy.',
+      'Add vanilla and cinnamon.',
+      'Serve immediately for soft serve or freeze 1 more hour for firmer texture.'
+    ],
+    tips: ['No sugar needed. Bananas are naturally sweet and creamy when frozen.']
+  },
+  {
+    id: 'dessert-3',
+    title: 'Coconut Macaroons',
+    category: 'dessert',
+    ingredients: [
+      '2 cups unsweetened shredded coconut',
+      '2 egg whites (optional - see tip)',
+      '1 teaspoon vanilla extract',
+      '3 tablespoons maple syrup (optional)',
+      'Pinch of salt'
+    ],
+    instructions: [
+      'Preheat oven to 325°F (165°C).',
+      'Mix all ingredients until well combined.',
+      'Scoop small mounds onto a lined baking sheet.',
+      'Bake for 15-18 minutes until golden on the edges.',
+      'Let cool completely before serving.'
+    ],
+    tips: [
+      'No eggs? Use 3 tablespoons of aquafaba (liquid from canned chickpeas) whipped until foamy.',
+      'No sweetener? Coconut has a natural mild sweetness.'
+    ]
+  },
+  {
+    id: 'dessert-4',
+    title: 'Chia Seed Pudding',
+    category: 'dessert',
+    ingredients: [
+      '1/4 cup chia seeds',
+      '1 cup unsweetened almond milk or coconut milk',
+      '1 teaspoon vanilla extract',
+      '2 tablespoons maple syrup (optional)',
+      'Fresh fruit for topping'
+    ],
+    instructions: [
+      'Mix chia seeds, milk and vanilla in a jar or bowl.',
+      'Add sweetener if using. Stir well.',
+      'Refrigerate overnight or at least 4 hours.',
+      'Stir once after 30 minutes to prevent clumping.',
+      'Top with fresh fruit before serving.'
+    ],
+    tips: ['No sweetener? Add mashed banana or top with sweet fruit.']
+  },
+  {
+    id: 'dessert-5',
+    title: 'Peanut Butter Cookies',
+    category: 'dessert',
+    ingredients: [
+      '1 cup natural peanut butter (no added sugar)',
+      '1 egg (optional - see tip)',
+      '1 teaspoon vanilla extract',
+      '1/2 teaspoon baking soda',
+      '3 tablespoons sugar or sweetener (optional)'
+    ],
+    instructions: [
+      'Preheat oven to 350°F (180°C).',
+      'Mix all ingredients until smooth dough forms.',
+      'Roll into small balls and place on a lined baking sheet.',
+      'Press down with a fork to create a crosshatch pattern.',
+      'Bake for 10-12 minutes.',
+      'Let cool completely before serving. They firm up as they cool.'
+    ],
+    tips: [
+      'No eggs? Use 1 tablespoon of flaxseed meal mixed with 3 tablespoons of water.',
+      'No sugar? Peanut butter is rich enough to stand on its own.'
+    ]
+  },
+  {
+    id: 'dessert-6',
+    title: 'Mango Coconut Mousse',
+    category: 'dessert',
+    ingredients: [
+      '1 cup mango puree (fresh or frozen)',
+      '1 can (13.5 oz) full-fat coconut milk (refrigerated overnight)',
+      '1 teaspoon vanilla extract',
+      '1 tablespoon maple syrup (optional)'
+    ],
+    instructions: [
+      'Scoop solid coconut cream from the can (discard liquid).',
+      'Whip with a fork or hand mixer until fluffy.',
+      'Fold in mango puree and vanilla.',
+      'Add maple syrup if using.',
+      'Spoon into cups and refrigerate 1 hour before serving.'
+    ],
+    tips: ['No sweetener? Mango is naturally very sweet.']
+  },
+  {
+    id: 'dessert-7',
+    title: 'Avocado Chocolate Mousse',
+    category: 'dessert',
+    ingredients: [
+      '2 ripe avocados',
+      '1/4 cup unsweetened cocoa powder',
+      '1/4 cup full-fat coconut milk',
+      '1 teaspoon vanilla extract',
+      '3 tablespoons maple syrup (optional)'
+    ],
+    instructions: [
+      'Blend all ingredients until completely smooth.',
+      'Taste and adjust cocoa or sweetener to preference.',
+      'Spoon into cups.',
+      'Refrigerate 30 minutes before serving.',
+      'Top with fresh berries or coconut flakes.'
+    ],
+    tips: ['No sweetener? Avocado makes this mousse incredibly rich and creamy without sugar.']
+  },
+  {
+    id: 'dessert-8',
+    title: 'Frozen Strawberry Bark',
+    category: 'dessert',
+    ingredients: [
+      '2 cups fresh strawberries (sliced)',
+      '1 cup full-fat coconut milk (refrigerated, solid part only)',
+      '1 teaspoon vanilla extract',
+      '1 tablespoon maple syrup (optional)'
+    ],
+    instructions: [
+      'Whip coconut cream until fluffy.',
+      'Add vanilla and sweetener if using. Mix well.',
+      'Spread onto a lined baking sheet.',
+      'Top with sliced strawberries.',
+      'Freeze for 3-4 hours until solid.',
+      'Break into pieces and serve immediately.',
+      'Store in freezer.'
+    ],
+    tips: ['No sweetener? Ripe strawberries are sweet enough.']
+  },
+  {
+    id: 'dessert-9',
+    title: 'Baked Cinnamon Pears',
+    category: 'dessert',
+    ingredients: [
+      '4 ripe pears (halved and cored)',
+      '1 teaspoon cinnamon',
+      '2 tablespoons coconut oil (melted)',
+      '1/4 cup chopped walnuts or pecans',
+      '1 tablespoon maple syrup (optional)'
+    ],
+    instructions: [
+      'Preheat oven to 375°F (190°C).',
+      'Place pear halves cut side up on a baking dish.',
+      'Brush with coconut oil.',
+      'Sprinkle with cinnamon and nuts.',
+      'Drizzle with maple syrup if using.',
+      'Bake for 25-30 minutes until tender and golden.',
+      'Serve warm.'
+    ],
+    tips: ['No sweetener? Ripe pears are naturally very sweet when baked.']
+  },
+  {
+    id: 'dessert-10',
+    title: 'Almond Flour Brownies',
+    category: 'dessert',
+    ingredients: [
+      '2 eggs (optional - see tip)',
+      '1 cup almond flour',
+      '1/2 cup unsweetened cocoa powder',
+      '1/3 cup coconut oil (melted)',
+      '1/2 cup unsweetened applesauce',
+      '1 teaspoon vanilla extract',
+      '1/2 teaspoon baking powder',
+      'Pinch of salt',
+      '1/3 cup sugar or sweetener (optional)'
+    ],
+    instructions: [
+      'Preheat oven to 350°F (180°C).',
+      'Mix all ingredients until smooth batter forms.',
+      'Pour into a greased 8x8-inch pan.',
+      'Bake for 20-25 minutes. Do not overbake.',
+      'Let cool completely before cutting.'
+    ],
+    tips: [
+      'No eggs? Use 2 tablespoons of flaxseed meal mixed with 6 tablespoons of water.',
+      'No sugar? Use 1/2 cup of mashed ripe banana instead.'
+    ]
+  },
+  {
+    id: 'dessert-11',
+    title: 'Coconut Date Truffles',
+    category: 'dessert',
+    ingredients: [
+      '1 cup pitted Medjool dates',
+      '1/2 cup unsweetened shredded coconut',
+      '2 tablespoons unsweetened cocoa powder',
+      '1 teaspoon vanilla extract',
+      'Pinch of salt',
+      'Extra coconut for rolling'
+    ],
+    instructions: [
+      'Blend dates until a sticky paste forms.',
+      'Mix in cocoa powder, vanilla and salt.',
+      'Roll into small balls with your hands.',
+      'Roll each truffle in shredded coconut.',
+      'Refrigerate 30 minutes before serving.',
+      'Store in the fridge for up to 2 weeks.'
+    ],
+    tips: ['No sugar needed. Dates are completely natural and sweet.']
+  },
+  {
+    id: 'dessert-12',
+    title: 'Baked Banana Bites',
+    category: 'dessert',
+    ingredients: [
+      '3 ripe bananas (sliced into rounds)',
+      '1 teaspoon cinnamon',
+      '1 tablespoon coconut oil (melted)',
+      '1/4 cup dairy-free chocolate chips (optional)'
+    ],
+    instructions: [
+      'Preheat oven to 400°F (200°C).',
+      'Toss banana slices with coconut oil and cinnamon.',
+      'Spread on a lined baking sheet.',
+      'Bake for 15 minutes until caramelized.',
+      'Drizzle with melted chocolate chips if using.',
+      'Serve warm or cool.'
+    ],
+    tips: ['No sugar needed. Bananas caramelize naturally in the oven.']
+  },
+  {
+    id: 'dessert-13',
+    title: 'Strawberry Chia Jam',
+    category: 'dessert',
+    ingredients: [
+      '2 cups fresh or frozen strawberries',
+      '3 tablespoons chia seeds',
+      '1 teaspoon vanilla extract',
+      '1 tablespoon maple syrup (optional)',
+      'Juice of 1/2 lemon'
+    ],
+    instructions: [
+      'Heat strawberries in a saucepan over medium heat until soft.',
+      'Mash with a fork.',
+      'Remove from heat. Add chia seeds, vanilla, lemon and sweetener.',
+      'Stir well and let sit 15 minutes until thick.',
+      'Store in a jar in the refrigerator for up to 2 weeks.',
+      'Great on top of pancakes, toast or ice cream.'
+    ],
+    tips: ['No sweetener? Ripe strawberries are naturally sweet enough.']
+  },
+  {
+    id: 'dessert-14',
+    title: 'Frozen Mango Sorbet',
+    category: 'dessert',
+    ingredients: [
+      '3 cups frozen mango chunks',
+      'Juice of 1 lime',
+      '1 tablespoon maple syrup (optional)',
+      '2 tablespoons water'
+    ],
+    instructions: [
+      'Blend all ingredients until smooth and creamy.',
+      'Serve immediately for soft sorbet.',
+      'Or freeze 1-2 hours for firmer texture.',
+      'Scoop into bowls and serve with fresh mint.'
+    ],
+    tips: ['No sweetener? Mango is tropical and naturally very sweet.']
+  },
+  {
+    id: 'dessert-15',
+    title: 'No-Bake Granola Bars',
+    category: 'dessert',
+    ingredients: [
+      '2 cups gluten-free rolled oats',
+      '1/2 cup peanut butter (no added sugar)',
+      '1/3 cup maple syrup (optional)',
+      '1/2 cup mixed dried fruit or nuts',
+      '1 teaspoon vanilla extract',
+      'Pinch of salt'
+    ],
+    instructions: [
+      'Mix all ingredients together until well combined.',
+      'Press firmly into a lined 8x8-inch pan.',
+      'Refrigerate 2 hours until firm.',
+      'Cut into bars.',
+      'Store in the fridge for up to 1 week.'
+    ],
+    tips: ['No sweetener? Add an extra 2 tablespoons of peanut butter and use fresh banana as binder.']
+  },
+  {
+    id: 'dessert-16',
+    title: 'Chocolate Covered Strawberries',
+    category: 'dessert',
+    ingredients: [
+      '1 pound fresh strawberries (washed and dried)',
+      '1 cup dairy-free dark chocolate chips',
+      '1 tablespoon coconut oil'
+    ],
+    instructions: [
+      'Melt chocolate chips and coconut oil together in a bowl over hot water. Stir until smooth.',
+      'Dip each strawberry into melted chocolate.',
+      'Place on a lined baking sheet.',
+      'Refrigerate 30 minutes until chocolate sets.',
+      'Serve cold.'
+    ],
+    tips: ['No sugar? Use sugar-free dark chocolate chips.']
+  },
+  {
+    id: 'dessert-17',
+    title: 'Apple Nachos',
+    category: 'dessert',
+    ingredients: [
+      '3 apples (cored and thinly sliced)',
+      '1/4 cup peanut butter (melted, no added sugar)',
+      '2 tablespoons unsweetened shredded coconut',
+      '2 tablespoons chopped nuts',
+      '1 teaspoon cinnamon',
+      'Dairy-free chocolate drizzle (optional)'
+    ],
+    instructions: [
+      'Arrange apple slices on a large plate.',
+      'Drizzle with melted peanut butter.',
+      'Sprinkle with coconut, nuts and cinnamon.',
+      'Drizzle with melted chocolate if using.',
+      'Serve immediately.'
+    ],
+    tips: ['No sugar needed. This dessert is naturally sweet from the apples.']
+  },
+  {
+    id: 'dessert-18',
+    title: 'Lemon Coconut Bliss Balls',
+    category: 'dessert',
+    ingredients: [
+      '1 cup raw cashews',
+      '1/2 cup unsweetened shredded coconut',
+      'Juice and zest of 2 lemons',
+      '2 tablespoons maple syrup (optional)',
+      '1 teaspoon vanilla extract',
+      'Extra coconut for rolling'
+    ],
+    instructions: [
+      'Blend cashews until fine crumbs form.',
+      'Add coconut, lemon juice, zest, vanilla and sweetener.',
+      'Blend until sticky dough forms.',
+      'Roll into balls with your hands.',
+      'Roll in extra shredded coconut.',
+      'Refrigerate 30 minutes before serving.'
+    ],
+    tips: ['No sweetener? Lemon gives a bright, refreshing flavor on its own.']
+  },
+  {
+    id: 'dessert-19',
+    title: 'Baked Cinnamon Apples',
+    category: 'dessert',
+    ingredients: [
+      '4 apples (cored)',
+      '2 tablespoons coconut oil (melted)',
+      '2 teaspoons cinnamon',
+      '1/4 cup chopped pecans or walnuts',
+      '1/4 cup raisins',
+      '2 tablespoons maple syrup (optional)'
+    ],
+    instructions: [
+      'Preheat oven to 375°F (190°C).',
+      'Place apples in a baking dish.',
+      'Fill each apple with pecans and raisins.',
+      'Drizzle with coconut oil and maple syrup.',
+      'Sprinkle with cinnamon.',
+      'Bake for 30-35 minutes until tender.',
+      'Serve warm.'
+    ],
+    tips: ['No sweetener? Apples become beautifully sweet when baked with cinnamon.']
+  },
+  {
+    id: 'dessert-20',
+    title: 'Chocolate Coconut Fudge',
+    category: 'dessert',
+    ingredients: [
+      '1 cup dairy-free dark chocolate chips',
+      '1/2 cup full-fat coconut milk',
+      '1/4 cup unsweetened shredded coconut',
+      '1 teaspoon vanilla extract',
+      'Pinch of sea salt',
+      '2 tablespoons maple syrup (optional)'
+    ],
+    instructions: [
+      'Heat coconut milk in a saucepan over low heat.',
+      'Add chocolate chips and stir until melted.',
+      'Remove from heat. Add coconut, vanilla, salt and sweetener.',
+      'Pour into a lined 8x8-inch pan.',
+      'Refrigerate 3-4 hours until completely firm.',
+      'Cut into squares and serve cold.',
+      'Store in the fridge for up to 2 weeks.'
+    ],
+    tips: ['No sweetener? Use sugar-free dark chocolate chips.']
   },
   {
     id: 'essential-1',
